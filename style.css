@@ -1,0 +1,86 @@
+.body{
+	font-family: 'Roboto Mono', monospace;
+
+}
+.home-title{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 40px;
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
+	color: black;
+}
+.header-link{
+	color: black;
+	text-decoration: none;
+}
+#header-img-block{
+	float: right;
+	padding: 30px;
+	width: 80%;
+	height: 80%;
+
+}
+#header-image{
+	text-align: center;
+	width: 90%;
+	height: 90%;
+}
+.side-menu{
+	width: 15%;
+	height: 400px;
+	font-family: 'Roboto Mono', monospace;
+	padding-top: 30px;
+	display: inline-block;
+}
+.side-menu-text{
+	display: inline-block;
+	text-align: left;
+	padding-left: 42%;
+	line-height: 50px
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.selected_menu{
+	font-weight: bolder;
+	font-size: 18px;
+}
+
+#shop_grid{
+	float: right;
+	padding: 20px;
+	width: 80%;
+	height: 80%;
+	grid-auto-flow: row;
+}
+
+.shop-image{
+	height: 80%;
+	width: 100%;
+	padding-bottom: 10px;
+	opacity: 1;
+}
+
+.shop-item{
+	display: inline-block;
+	height: 375px;
+	width: 300px;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: center;
+}
+
+.item-name{
+	font-size: 17px;
+	font-family: 'Quicksand', sans-serif;
+	padding-bottom: 7px;
+}
+
+.item-price{
+	font-size: 10px;
+	font-family: 'Quicksand', sans-serif;
+}
