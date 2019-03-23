@@ -1,37 +1,38 @@
 .body{
 	font-family: 'Roboto Mono', monospace;
-
 }
 .home-title{
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Roboto Mono', monospace;
 	font-size: 40px;
 	width: 100%;
 	text-align: center;
 	margin-top: 30px;
 	color: black;
+	margin-bottom: 30px;
 }
 .header-link{
 	color: black;
 	text-decoration: none;
 }
 #header-img-block{
-	float: right;
-	padding: 30px;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+#header-image{
 	width: 80%;
 	height: 80%;
-
-}
-#header-image{
-	text-align: center;
-	width: 90%;
-	height: 90%;
 }
 .side-menu{
 	width: 100%;
 	text-align: center;
 	font-family: 'Roboto Mono', monospace;
-	padding-top: 30px;
-	display: inline-block;
+	padding-bottom: 50px;
+	display: flex;
+	justify-content: center;
 }
 
 a {
@@ -45,11 +46,10 @@ a {
 }
 
 #shop_grid{
-	float: right;
-	padding: 20px;
-	width: 80%;
-	height: 80%;
+	text-align: center;
 	grid-auto-flow: row;
+	margin-left: 5%;
+	margin-right: 5%;
 }
 
 .shop-image{
@@ -70,11 +70,52 @@ a {
 
 .item-name{
 	font-size: 17px;
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Roboto Mono', monospace;
 	padding-bottom: 7px;
 }
 
 .item-price{
 	font-size: 10px;
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Roboto Mono', monospace;
 }
+
+.column {
+  float: left;
+  font-family: 'Roboto Mono', monospace;
+  width: 40%;
+  height: 500px;
+  padding: 10px;
+  margin-left: 8%;
+}
+
+.left{
+	width: 50%;
+	float: left;
+	font-family: 'Roboto Mono', monospace;
+	height: 500px;
+	padding: 10px;
+	margin-left: 8%;
+}
+
+.right{
+  width: 20%;
+  float: left;
+  font-family: 'Roboto Mono', monospace;
+  padding: 10px;
+  margin-left: 8%;
+}
+
+.detail-image{
+	width: 100%;
+	height: 100%;
+}
+
+
+.name{
+	margin-bottom: 20px;
+}
+
+.price{
+	margin-bottom: 20px;
+}
+

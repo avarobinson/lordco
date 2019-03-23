@@ -1,0 +1,38 @@
+<?php
+if($_POST["message"]) {
+    mail("your@email.address", "Form to email message", $_POST["message"], "From: avamrobinson@gmail.com");
+}
+?>
+<!DOCTYPE html>
+<head>
+	<title> LORD.CO </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+    <script src="javascriopt.js"></script>
+    '<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class = "home-title"><a href="index.html">LORD.CO</a></div>
+<div class = "left">
+	<img src = "images/shop1.JPG" class = "detail-image">
+</div>
+<div class = "right">
+	<div class = "name">VIE Crewneck</div>
+	<div class = "price">$40.00</div>
+<form method="post" action="contact.php">
+    <textarea name="message"></textarea>
+    <input type="submit">
+</form>
+	<div class = "description">
+		NAVY/TEAL
+		100% COTTON
+		17OZ FRENCH TERRY
+		SINGLE ENTRY POUCH POCKET
+		VERTICAL AIMÉ BRANDING
+		ELASTIC WAIST WITH DRAWCORD
+		STAND-UP COLLAR
+</div>
+</body>
+</html>
