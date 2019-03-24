@@ -96,15 +96,9 @@ a {
 }
 
 
-.name{
-	text-align: right;
-	margin-bottom: 20px;
-	display: block;
-}
-
-.price{
-	text-align: right;
-	margin-bottom: 20px;
+.name-price{
+	text-align: left;
+	margin-bottom: 10px;
 	display: block;
 }
 
@@ -113,3 +107,27 @@ a {
 	text-align: center;
 	justify-content: center;
 }
+
+.form-element{
+  font-family: 'Roboto Mono', monospace;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid black;
+  margin-bottom: 15px;
+}
+
+.description{
+	text-align: left;
+	opacity: 0.6;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+
+.request-message{
+	font-size: 14px;
+	text-align: left;
+	line-height: 20px;
+}
+
