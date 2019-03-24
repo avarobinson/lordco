@@ -80,30 +80,15 @@ a {
 }
 
 .column {
-  float: left;
-  font-family: 'Roboto Mono', monospace;
-  width: 40%;
-  height: 500px;
-  padding: 10px;
-  margin-left: 8%;
-}
-
-.left{
-	width: 50%;
-	float: left;
-	font-family: 'Roboto Mono', monospace;
-	height: 500px;
-	padding: 10px;
-	margin-left: 8%;
-}
-
-.right{
-  width: 20%;
-  float: left;
-  font-family: 'Roboto Mono', monospace;
-  padding: 10px;
-  margin-left: 8%;
-}
+	vertical-align: top;
+	width: 500px;
+	display: inline-block;
+  	-webkit-columns: 2 500px;
+  	-moz-columns: 2 500px;
+  	columns: 2 500px;
+  	column-fill: auto;
+  	padding: 30px;
+ }
 
 .detail-image{
 	width: 100%;
@@ -113,9 +98,14 @@ a {
 
 .name{
 	margin-bottom: 20px;
+	display: block;
 }
 
 .price{
 	margin-bottom: 20px;
+	display: block;
 }
 
+.item-columns{
+	text-align: center;
+}
