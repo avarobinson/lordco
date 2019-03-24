@@ -81,13 +81,13 @@ a {
 
 .column {
 	vertical-align: top;
-	width: 500px;
+	width: 400px;
 	display: inline-block;
   	-webkit-columns: 2 500px;
   	-moz-columns: 2 500px;
   	columns: 2 500px;
-  	column-fill: auto;
-  	padding: 30px;
+  	padding-top: 15px;
+  	margin: auto;
  }
 
 .detail-image{
@@ -97,15 +97,19 @@ a {
 
 
 .name{
+	text-align: left;
 	margin-bottom: 20px;
 	display: block;
 }
 
 .price{
+	text-align: left;
 	margin-bottom: 20px;
 	display: block;
 }
 
 .item-columns{
+	font-family: 'Roboto Mono', monospace;
 	text-align: center;
+	justify-content: center;
 }
