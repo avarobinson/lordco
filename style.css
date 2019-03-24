@@ -97,13 +97,13 @@ a {
 
 
 .name{
-	text-align: left;
+	text-align: right;
 	margin-bottom: 20px;
 	display: block;
 }
 
 .price{
-	text-align: left;
+	text-align: right;
 	margin-bottom: 20px;
 	display: block;
 }
