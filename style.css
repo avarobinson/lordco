@@ -132,3 +132,26 @@ a {
 	line-height: 20px;
 }
 
+
+.lookbook-image-vertical{
+	padding: 10px;
+	display: inline-flex;
+	width: 40%;
+	vertical-align: top;
+}
+
+.lookbook-image-horizontal{
+	flex-flow: column;
+	vertical-align: top;
+	padding: 10px;
+	display: inline-flex;
+	width: 40%;
+	height:10%;
+	
+}
+
+.lookbook-images-block{
+	text-align: center;
+}
+
+
