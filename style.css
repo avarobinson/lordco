@@ -81,7 +81,7 @@ a {
 
 .column {
 	vertical-align: top;
-	width: 375px;
+	width: 380px;
 	display: inline-block;
   	-webkit-columns: 2 500px;
   	-moz-columns: 2 500px;
@@ -132,6 +132,31 @@ a {
 	line-height: 20px;
 }
 
+#request-button{
+	border-radius: 0px;
+	height: 35px;
+	width: 185px;
+	border: 1px solid #000;
+	display: block;
+	transition: all 0.4s linear 0s;
+	text-align: center;
+	color: #000;
+	outline: 0;
+	margin-top: 30px;
+}
+
+#submit-button{
+	border-radius: 0px;
+	height: 35px;
+	width: 185px;
+	border: 1px solid #000;
+	display: block;
+	transition: all 0.4s linear 0s;
+	text-align: center;
+	color: #000;
+	outline: 0;
+}
+
 
 .lookbook-image-vertical{
 	padding: 10px;
@@ -152,6 +177,10 @@ a {
 
 .lookbook-images-block{
 	text-align: center;
+}
+
+#itemName{
+	display: none;
 }
 
 

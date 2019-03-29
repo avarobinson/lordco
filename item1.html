@@ -5,6 +5,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
     <script src="javascriopt.js"></script>
     '<link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
 <body>
@@ -28,13 +29,15 @@
 	</div>
 
 	<div class = "request-message">if you would like to purchase this item, please submit a request<br>
-	<button class = "request-button" onclick = "request_form()">REQUEST</button></div>
+	<button id = "request-button" onclick = "request_form()">REQUEST</button></div>
 
 	<form class="gform pure-form pure-form-stacked" method="POST" data-email="lordg.co@gmail.com"
   action="https://script.google.com/macros/s/AKfycbz67C508QwN05Bgfl2uMgO16w22fpdBewnl4dcAJ61WLfWf1ul3/exec" style = "text-align: left; margin-top: 30px">
     <!-- change the form action to your script url -->
 
-    <div class="form-elements" style = "display: none;">
+    <div class="form-elements" style = "display:none;">
+
+        <input id="itemName" type="radio" name="itemName" value="VIE CREW" checked />
 
         <input class = "form-element" id="name" name="name" placeholder="name" /><br>
 
@@ -42,7 +45,7 @@
         <span class="email-invalid" style="display:none">
           Must be a valid email address</span>
 
-        <label for="shipping-address" style = "font-size: 12px">SHIPPING ADDRESS</label><br>
+        <label for="shipping-address" style = "font-size: 12px">SHIPPING ADDRESS (US only)</label><br>
         <input class = "form-element" id="street-address" name="street-address" placeholder="street address" style = "width:211px;"/><br>
         <input class = "form-element" style = "width: 100px;" id="city" name="city" placeholder="city"/>
         <input class = "form-element" style = "width: 100px;" id="state" name="state" placeholder="state"/><br>
@@ -301,8 +304,10 @@
 		</select><br>
 
 
-     <button class="button-success pure-button button-xlarge">
-        <i class="fa fa-paper-plane"></i>&nbsp;Submit</button>
+
+     <button class="button-success pure-button button-xlarge" id = "submit-button" onclick= "submit_button()">
+        <i class="fa fa-paper-plane"></i>&nbsp;SUBMIT</button>
+
     </div>
 
     <!-- Customise the Thankyou Message People See when they submit the form: -->
