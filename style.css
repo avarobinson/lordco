@@ -87,7 +87,8 @@ a {
   	-moz-columns: 2 500px;
   	columns: 2 500px;
   	padding-top: 15px;
-  	padding-right: 30px;
+  	padding-right: 15px;
+  	padding-left: 15px;
   	margin: auto;
  }
 
